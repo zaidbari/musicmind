@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--primary-color: #151928;
+}
+
+* {
+	@apply select-none;
+}
+
+@layer base {
+	body {
+		@apply text-white subpixel-antialiased;
+		background: linear-gradient(45deg, #000, rgb(13, 20, 36));
+		background-attachment: fixed;
+	}
+}
+
+@layer utilities {
+	p {
+		@apply text-white/75;
+	}
+}
+@layer components {
+	.button {
+		@apply inline-block rounded-md bg-[#151928] px-10 py-3 text-white transition  delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-orange-600 hover:text-[#151928];
+	}
+
+	.service-list li {
+		@apply mb-5 rounded-lg border-l-8 border-white/75 bg-[#151928]/30 px-10 py-5 text-lg font-bold uppercase transition duration-300 ease-in-out hover:scale-105 hover:border-orange-600 hover:text-orange-600;
+	}
+
+	.more-button-light:before {
+		content: '';
+		display: inline-block;
+		width: 50px;
+		height: 2px;
+		@apply mb-1 mr-5 bg-white transition-all duration-150;
+	}
+
+	.more-button-light:hover::before {
+		@apply bg-orange-600 transition-all duration-150;
+	}
+
+	.after-line::after {
+		content: '';
+		display: block;
+		width: 100px;
+		height: 5px;
+		@apply mt-3 mb-10 bg-orange-600;
+	}
+	.after-line-light::after {
+		content: '';
+		display: block;
+		width: 100px;
+		height: 5px;
+		@apply mt-3 mb-10 bg-white;
+	}
+}
+
+::-webkit-scrollbar {
+	width: 4px;
+}
+
+::-webkit-scrollbar-track {
+	background: #151928;
+}
+
+::-webkit-scrollbar-thumb {
+	@apply bg-orange-600 transition duration-300 ease-in-out hover:bg-orange-800;
+}
+
+.image-stack {
+	display: grid;
+	position: relative;
+	grid-template-columns: repeat(12, 1fr);
+}
+
+.image-stack__item--bottom {
+	grid-column: 4 / -1;
+	grid-row: 1;
+}
+
+.image-stack__item--top {
+	grid-row: 1;
+	grid-column: 1 / span 8;
+	padding-top: 40%;
+	z-index: 1;
+}
