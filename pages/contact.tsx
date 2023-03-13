@@ -34,19 +34,25 @@ const Contact: NextPage = (): JSX.Element => {
 		setLoading(true)
 
 		if (name.length < 2) {
-			setNameError('name is too short')
+			setNameError('navnet er for kort')
 			setLoading(false)
 			return
 		}
 
 		if (email.length < 5) {
-			setEmailError('email is too short')
+			setEmailError('e-mail er for kort')
 			setLoading(false)
 			return
 		}
 
-		if (message.length < 10) {
-			setMessageError('message is too short')
+		if (message.length < 5) {
+			setMessageError('beskeden er for kort')
+			setLoading(false)
+			return
+		}
+
+		if (company.length < 2) {
+			setMessageError('firmanavnet er for kort')
 			setLoading(false)
 			return
 		}
@@ -146,7 +152,7 @@ const Contact: NextPage = (): JSX.Element => {
 							</div>
 							<div className="flex flex-col gap-y-2">
 								<label htmlFor="company" className="text-lg font-bold">
-									Company
+									Virksomheden
 								</label>
 								<input
 									onChange={(e) => setCompany(e.target.value)}
@@ -161,7 +167,7 @@ const Contact: NextPage = (): JSX.Element => {
 							</div>
 							<div className="flex flex-col gap-y-2">
 								<label htmlFor="message" className="text-lg font-bold">
-									Message
+									Besked
 								</label>
 								<textarea
 									onChange={(e) => setMessage(e.target.value)}
