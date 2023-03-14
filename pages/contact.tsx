@@ -64,7 +64,7 @@ const Contact: NextPage = (): JSX.Element => {
 			body.append('message', message)
 			body.append('company', company)
 
-			const result = await fetch('https://www.musicmind-cors.dk/www.musicminduat.dk/instorex/contact/', {
+			const result = await fetch('https://www.musicminduat.dk/instorex/contact/', {
 				method: 'POST',
 				body: body
 			})
@@ -82,7 +82,7 @@ const Contact: NextPage = (): JSX.Element => {
 					'Noget gik galt. venligst prøv igen senere, ellers er du meget velkommen til at skrive os en email på Kontakt@instorex.dk, så er vi sikre på at vi har modtaget din email'
 				)
 		} catch (error: any) {
-			console.log(error.message)
+			console.log(error)
 			setName('')
 			setEmail('')
 			setMessage('')
