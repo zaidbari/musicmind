@@ -64,7 +64,7 @@ const Contact: NextPage = (): JSX.Element => {
 			body.append('message', message)
 			body.append('company', company)
 
-			const result = await fetch('https://www.musicminduat.dk/instorex/contact/', {
+			const result = await fetch('https://www.musicmind-cors.dk/www.musicminduat.dk/instorex/contact/', {
 				method: 'POST',
 				body: body
 			})
