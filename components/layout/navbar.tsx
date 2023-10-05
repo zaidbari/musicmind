@@ -78,7 +78,7 @@ export const NavbarComponent = (): JSX.Element => {
 										</a>
 									</Link>
 									<a
-										href="https://musicmindapp.me"
+										href="https://musicmind.nu"
 										target={'_blank'}
 										rel="noopener noreferrer"
 										className="button font-bold text-orange-500"
@@ -109,7 +109,7 @@ export const NavbarComponent = (): JSX.Element => {
 							</Link>
 							<Disclosure.Button
 								as="a"
-								href={'https://musicmindapp.me'}
+								href={'https://musicmind.nu'}
 								target="_blank"
 								rel="noopener noreferrer"
 								className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
