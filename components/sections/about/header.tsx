@@ -13,13 +13,13 @@ export const AboutHeaderSection = () => {
 			<header className="mx-auto grid w-[90%] grid-cols-1 items-center gap-x-32 gap-y-10 py-20 lg:grid-cols-2">
 				<div>
 					<h2 className="text-4xl font-bold leading-tight">
-						<span className="text-orange-500">Om</span> MusicMind
+						<span className="text-orange-500">Bag </span> MusicMind
 					</h2>
 					<Line />
 					<p className="mb-10 text-lg">
-						Bag Musicmind står virksomheden InstoreX ApS, der er førende leverandør af oplevelsesdesign,
-						systemintegration og AV-løsninger til brancher indenfor bl.a. dagligvare, fitness og hotel og den offentlige
-						sektor{' '}
+						Bag MusicMind står virksomheden InstoreX ApS, der er førende leverandør af oplevelsesdesign,
+						systemintegration og AV-løsninger til bl.a. dagligvarebutikker, fitnesscentre, hoteller og den offentlige
+						sektor.
 					</p>
 					<a href="https://instorex.dk" target={'_blank'} rel="noopener noreferrer" className="button">
 						Besøg InstoreX

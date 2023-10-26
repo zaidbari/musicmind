@@ -1,6 +1,8 @@
-import Layout from '@/layout'
+import '../styles/globals.css';
+
+import Layout from '@/layout';
+
 import type { AppProps, NextWebVitalsMetric } from 'next/app'
-import '../styles/globals.css'
 
 export const reportWebVitals = (metric: NextWebVitalsMetric) => {
 	console.log(metric)

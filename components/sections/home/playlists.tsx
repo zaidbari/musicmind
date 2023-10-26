@@ -21,16 +21,12 @@ export const HomePlaylistSection = (): JSX.Element => (
 			<Line />
 
 			<p className="mt-10 text-lg">
-				Individuelle musikpræferencer har også betydning for musikkens effekt. Den samme musik virker ikke nødvendigvis
-				beroligende på alle mennesker, dog findes overordnede parametre i musik, som er afgørende for, om den virker
-				beroligende eller aktiverende (Bonde, 2014). Med Musicmind er er det brugervenligt og nemt at skabe personlige
-				spillelister særligt tilpasset lytterens egne behov og præferencer. Det er muligt at sammensætte musik, som den
-				enkelte beboer/patient foretrækker, til en personlig spilleliste. Der kan også udvælges sange fra allerede
-				eksisterende lister som gøres personlig, og dermed rettet specifikt til den enkeltes behov og præferencer.
-				<br />
-				Afspilningstjenesten er udstyret med en timer-funktion, så afspilningen stopper efter et indstillet
-				tidsinterval. Det er vigtigt at overveje, hvor længe den enkelte beboer/patient har gavn af at lytte til musik.
-				Afspillet musik bør ikke være et lydtæppe, som anvendes hele dagen.
+				Tilgangen til MusicMind er baseret på en brugervenlig metode, der tager udgangspunkt i et stort katalog af
+				specialudviklede spillelister inddelt i genrer, kunstnere, tidsperioder, temaer og arousalniveau. Spillelisterne
+				er sammensat af vores dygtige musikterapikonsulenter, der sikrer den faglige kvalitet. Med MusicMind er det også
+				nemt at skabe personlige spillelister, der tilpasses lytterens egne behov og præferencer. Der kan også laves
+				musikbiografier, hvor personlige spillelister fyldes med musik, der har en særlig betydning for lytteren:
+				herigennem kan man arbejde med livshistorie og reminiscens.
 			</p>
 		</div>
 	</section>

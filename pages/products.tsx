@@ -46,8 +46,8 @@ const Products: NextPage = (): JSX.Element => {
 							<h2 className="my-5 text-2xl font-bold">Musicarrier</h2>
 							<p>
 								Musicarrier er en specialdesignet musikvogn udviklet til at hjælpe institutioner med at få musikken ud
-								og spille alle steder. Musicarrier indeholder både iPad og højtaler og kan spille i op til 8 timer uden
-								strøm. Herudover kan 4G simkort løsning tilvælges hvis Wi-Fi dækningen er dårlig.
+								at spille. Musicarrier indeholder både iPad og højttaler, og kan spille i op til 8 timer på én
+								opladning.
 							</p>
 						</div>
 
@@ -101,10 +101,7 @@ const Products: NextPage = (): JSX.Element => {
 								/>
 							</div>
 							<h2 className="my-5 text-2xl font-bold">iPad Wi-fi / iPad Cellular</h2>
-							<p>
-								Til alle vores løsninger bruges nye iPads. Man kan vælge mellem almindelige Wi-Fi iPads og cellular/4G
-								iPads.
-							</p>
+							<p>Til alle vores løsninger bruges nye iPads. Der kan vælges mellem wi-fi og cellular/4G-iPads.</p>
 						</div>
 					</div>
 					{/* --------------------------------- product -------------------------------- */}
@@ -123,8 +120,9 @@ const Products: NextPage = (): JSX.Element => {
 							</div>
 							<h2 className="my-5 text-2xl font-bold">Bose Lydanlæg</h2>
 							<p>
-								Denne pakke består af 2 stk. Bose DS40SE højtalere og 1 stk. Bose IZA190hz forstærker. Produkterne er i
-								højeste kvalitet og velegnet til fællesområder hvor der er brug for et robust langtidsholdbart anlæg.
+								Denne pakke består af 2 stk. Bose DS40SE højttalere og 1 stk. Bose IZA190hz forstærker. Produkterne er i
+								højeste kvalitet og velegnede til fællesområder, hvor der er behov for et robust, langtidsholdbart
+								anlæg.
 							</p>
 						</div>
 					</div>
@@ -187,8 +185,8 @@ const Products: NextPage = (): JSX.Element => {
 							</div>
 							<h2 className="my-5 text-2xl font-bold">Serviceaftale</h2>
 							<p>
-								Vi har sammensat en lukrativ serviceaftale til de kunder der har brug for assistance og hjælp i
-								forbindelse med driften af løsningerne.
+								Vi har sammensat en lukrativ serviceaftale til de kunder, der har brug for assistance i forbindelse med
+								driften af løsningerne.
 							</p>
 						</div>
 					</div>

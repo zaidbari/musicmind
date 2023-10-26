@@ -10,7 +10,9 @@ export const HomeWorkSection = (): JSX.Element => (
 			</h2>
 			<Line />
 
-			<p className="mt-10 mb-5 text-lg font-bold">Vi har valgt at fokusere på: </p>
+			<p className="mt-10 mb-5 text-lg font-bold">
+				MusicMind er udviklet med sundheds- og plejesektoren in mente. Vi har derfor særligt fokus på:
+			</p>
 			<ul className="list-inside list-disc">
 				<li>Ældreplejen</li>
 				<li>Hospice</li>
@@ -18,9 +20,10 @@ export const HomeWorkSection = (): JSX.Element => (
 				<li>Psykiatri</li>
 			</ul>
 			<p className="mt-10 mb-5 text-lg">
-				Hvert område har sine unikke behov, som vi imødekommer individuelt både i indhold, udseende og funktionalitet.
+				Hvert område har unikke behov, som vi imødekommer individuelt gennem tilpasning af løsningens indhold, udseende
+				og funktionalitet.
 			</p>
-			<p className="mt-10 mb-5 font-bold">Vores løsning kan bruges til:</p>
+			<p className="mt-10 mb-5 font-bold">MusicMind kan bl.a. benyttes til:</p>
 			<ul className="list-inside list-disc">
 				<li>At skabe stemning og atmosfære til meningsfyldt samvær</li>
 				<li>At berolige eller stimulere</li>

@@ -22,14 +22,10 @@ export const HomeIdeaSection = (): JSX.Element => (
 			<Line />
 
 			<p className="text-lg">
-				Vigtigheden af at finde den rette musik er afgørende for at opnå en ønsket effekt. Det er ikke en let opgave,
-				men vores løsning gør processen lettere og mere tryg, særlig i forbindelse med musikvalg til mennesker med
-				sygdom.
+			Når musikken skal spille, er det vigtigt at vælge det rigtige indhold til formålet. Med vores løsning gøres processen tryg og lettilgængelig, særligt i forbindelse med musikvalg til mennesker, der lever med forskellige sygdomme.
 			</p>
 			<p className="mt-5 text-lg">
-				Ved hjælp af det store udvalg af spillelister og stilles arkiv der er stilles til rådighed, kan medarbejdere
-				uden musikfaglig baggrund guides til at tage fagligt reflekterede valg om hvilken musik der skal anvendes til
-				specifikke behov.
+			Ved hjælp af stort musikarkiv, samt spillelister udviklet til specifikke behov, bliver medarbejderen guidet til at tage reflekterede valg om hvilken musik, der skal anvendes til forskellige lejligheder.
 			</p>
 		</div>
 	</section>

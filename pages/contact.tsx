@@ -114,7 +114,7 @@ const Contact: NextPage = (): JSX.Element => {
 				</div>
 				<div>
 					<h1 className="text-4xl font-bold">
-						<span className="text-orange-500">Kontakt</span> us
+						<span className="text-orange-500">Kontakt</span> os
 					</h1>
 					<Line />
 
@@ -152,7 +152,7 @@ const Contact: NextPage = (): JSX.Element => {
 							</div>
 							<div className="flex flex-col gap-y-2">
 								<label htmlFor="company" className="text-lg font-bold">
-									Virksomheden
+									Firma
 								</label>
 								<input
 									onChange={(e) => setCompany(e.target.value)}

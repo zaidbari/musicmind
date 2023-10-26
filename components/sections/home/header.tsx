@@ -13,19 +13,18 @@ export const HomeHeaderSection = (): JSX.Element => {
 						MUSIKLØSNING MÅLRETTET <span className="text-orange-600">BEHANDLING</span> OG PLEJE
 					</h1>
 					<p className="text-lg font-bold">
-						Musicmind er en let anvendelig, praktisk og specialiseret musikløsning til ældreplejen, hospice, hospitaler
-						og psykiatrien.
+					MusicMind er en praktisk, letanvendelig og specialiseret musikløsning målrettet ældreplejen, hospice, hospitaler og psykiatrien.
 					</p>
 
-					<p className="text-lg">Fordelene ved Musicmind er at:</p>
+					<p className="text-lg">Med MusicMind tilbyder vi:</p>
 					<p>
-						Det kan bruges af alle og kræver ikke musikfaglig baggrund
+						En integreret løsning, der let kan benyttes af alle faggrupper
 						<br />
-						Det er 100% lovligt og kan bruges på alle arealer
+						Nem adgang til et stort musikkatalog og specialudviklede playlister
 						<br />
-						Det er meget let anvendeligt og driftssikkert
+						Velkendt og driftssikker teknologi på telefon, tablet, computer eller smart-tv
 						<br />
-						Det kan bruges på alle medier som f.eks. tablets, telefoner, computere og smart TV
+						Et solidt, fagligt grundlag gennem vores samarbejde med musikterapeuter
 					</p>
 
 					<div>
