@@ -24,7 +24,7 @@ export const HomeIdeaSection = (): JSX.Element => (
 			<p className="text-lg">
 				Uanset om musik anvendes til at skabe trivsel og fremme sundhed gennem meningsfulde aktiviteter, for at skabe
 				velvære i sig selv, eller ved at indgå som redskab i behandling varetaget af fx sygeplejersker eller terapeuter,
-				skal det være nemt, funktionelt og lovligt at tilgå den relevante musik. Med vores løsning, ønsker vi at guides
+				skal det være nemt, funktionelt og lovligt at tilgå den relevante musik. Med vores løsning, ønsker vi at guide
 				forskellige grupper af fagpersoner og pårørende til at kunne gøre brug af musikkens mange muligheder. MusicMind
 				er udviklet til at blive anvendte som et pædagogisk og plejefagligt redskab rettet mod et bredt spænd af
 				målgrupper på fx aktivitetscentre for hjemmeboende personer med en demenssygdom, plejecentre, hospitaler og

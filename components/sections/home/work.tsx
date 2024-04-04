@@ -11,7 +11,7 @@ export const HomeWorkSection = (): JSX.Element => (
 			<Line />
 
 			<p className="mt-10 mb-5 text-lg">
-				MusicMind kan understøtte en sundhedsfremmende brug af musik. t MusicMind kan være et redskab for bl.a.
+				MusicMind kan understøtte en sundhedsfremmende brug af musik. MusicMind kan være et redskab for bl.a.
 				musikterapeuter, ergoterapeuter og fysioterapeuter, sygeplejersker eller læger i deres behandlinger eller
 				aktiviteter. Gennem undervisning og vejledning fra musikterapeuter kan andre faggrupper lære at anvende musikken
 				på de præoprettede spillelister til plejefaglige formål på forsvarlig vis. Indretningen af MusicMind er
