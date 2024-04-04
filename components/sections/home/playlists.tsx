@@ -31,14 +31,16 @@ export const HomePlaylistSection = (): JSX.Element => (
 				regulering ned i arousal. Listerne målrettet specifikke indsatser indenfor palliation kræver forudgående
 				undervisning i og viden om musikmedicin.
 			</p>
-			<p className="mt-5 text-lg">
+			<p className="mt-5 mb-5 text-lg">
 				Med MusicMind er det også nemt at skabe personlige spillelister, sammensat til individuelle behov og
 				situationer. Eksempelvis må musikvalget løbende tilpasses den enkeltes påvirkning af sygdom. MusicMind giver
 				mulighed for at kunne oprette spillelister ud fra de individuelle musikpræferencer, så den unikke musikbiografi
 				kan blive oprettet i systemet og bragt i spil for og med personer, der ikke længere selv kan finde og dermed få
 				glæde af deres yndlingsmusik.
 			</p>
-			<p className="mt-5 text-2xl">ØNSKER DU AT HØRE MERE SÅ KLIK HER</p>
+			<a href="/contact" className="button text-center">
+				ØNSKER DU AT HØRE MERE SÅ KLIK HER
+			</a>
 		</div>
 	</section>
 )

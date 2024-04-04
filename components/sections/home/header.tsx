@@ -10,7 +10,7 @@ export const HomeHeaderSection = (): JSX.Element => {
 			<div className="grid w-[90%] grid-cols-1 items-center gap-32 lg:grid-cols-2">
 				<div className="flex max-w-2xl flex-col gap-5">
 					<h1 className="text-[260%] font-bold leading-tight">
-						MUSIKLØSNING TIL REHABILITERING <span className="text-orange-600">PLEJE </span> OG PLEJE
+						MUSIKLØSNING TIL REHABILITERING <span className="text-orange-600">PLEJE </span> OG PALLIATION
 					</h1>
 					<p className="text-lg font-bold">
 						MusicMind er en lovlig, letanvendelig og specialiseret musikløsning udviklet til brug af musik i sundheds-

@@ -24,11 +24,11 @@ export const HomeWorkSection = (): JSX.Element => (
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					Here
+					her
 				</a>
 			</p>
 			<p className="mt-10 mb-5 font-bold">MusicMind kan bl.a. benyttes til:</p>
-			<ul className="list-inside list-disc">
+			<ul className="ml-4 list-disc">
 				<li>At skabe genkendelighed og derved tryghed</li>
 				<li>At anvende kendt (og ukendt) musik til beroligelse eller stimulering (arousalregulering) </li>
 				<li>At skabe positive interaktioner og meningsfuldt samvær</li>
