@@ -22,12 +22,23 @@ export const HomePlaylistSection = (): JSX.Element => (
 
 			<p className="mt-10 text-lg">
 				Tilgangen til MusicMind er baseret på en brugervenlig metode, der tager udgangspunkt i et stort katalog af
-				specialudviklede spillelister inddelt i genrer, kunstnere, tidsperioder, temaer og arousalniveau. Spillelisterne
-				er sammensat af vores dygtige musikterapikonsulenter, der sikrer den faglige kvalitet. Med MusicMind er det også
-				nemt at skabe personlige spillelister, der tilpasses lytterens egne behov og præferencer. Der kan også laves
-				musikbiografier, hvor personlige spillelister fyldes med musik, der har en særlig betydning for lytteren:
-				herigennem kan man arbejde med livshistorie og reminiscens.
+				specialudviklede spillelister inddelt i hoved- og underkategorier. Indretningen kan hjælpe ansatte og
+				omsorgspersoner til nemt at finde frem til musik fra en persons teenageår, samt finde musik af kunstnere,
+				komponister og i forskellige genrer og stilarter. MusicMind indeholder lister rettet mod at understøtte
+				musikaktiviteter som sang og dans/bevægelse, interaktioner der skaber fysisk, social, kognitiv og emotionel
+				stimulation. En del af MusicMind er indrettet med rolig musik til bl.a. beroligelse. Med de rette faglige
+				kompetencer og efter vejledning fra musikterapeuter kan lister med både kendt og ukendt musik anvendes til
+				regulering ned i arousal. Listerne målrettet specifikke indsatser indenfor palliation kræver forudgående
+				undervisning i og viden om musikmedicin.
 			</p>
+			<p className="mt-5 text-lg">
+				Med MusicMind er det også nemt at skabe personlige spillelister, sammensat til individuelle behov og
+				situationer. Eksempelvis må musikvalget løbende tilpasses den enkeltes påvirkning af sygdom. MusicMind giver
+				mulighed for at kunne oprette spillelister ud fra de individuelle musikpræferencer, så den unikke musikbiografi
+				kan blive oprettet i systemet og bragt i spil for og med personer, der ikke længere selv kan finde og dermed få
+				glæde af deres yndlingsmusik.
+			</p>
+			<p className="mt-5 text-2xl">ØNSKER DU AT HØRE MERE SÅ KLIK HER</p>
 		</div>
 	</section>
 )

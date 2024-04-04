@@ -3,13 +3,13 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 
 import p1 from '@/images/product-bose-sound-system.png'
-import p2 from '@/images/product-bose-speaker.png'
 import p3 from '@/images/product-ipad.png'
-import p4 from '@/images/product-koss-headphones.png'
-import p5 from '@/images/product-bose-volume-control.png'
 import p6 from '@/images/product-musicarrier.png'
 import p7 from '@/images/product-service-agreement.png'
 import Image from 'next/future/image'
+// import p2 from '@/images/product-bose-speaker.png'
+// import p4 from '@/images/product-koss-headphones.png'
+// import p5 from '@/images/product-bose-volume-control.png'
 
 const Products: NextPage = (): JSX.Element => {
 	return (

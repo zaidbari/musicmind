@@ -10,25 +10,31 @@ export const HomeWorkSection = (): JSX.Element => (
 			</h2>
 			<Line />
 
-			<p className="mt-10 mb-5 text-lg font-bold">
-				MusicMind er udviklet med sundheds- og plejesektoren in mente. Vi har derfor særligt fokus på:
-			</p>
-			<ul className="list-inside list-disc">
-				<li>Ældreplejen</li>
-				<li>Hospice</li>
-				<li>Hospitaler</li>
-				<li>Psykiatri</li>
-			</ul>
 			<p className="mt-10 mb-5 text-lg">
-				Hvert område har unikke behov, som vi imødekommer individuelt gennem tilpasning af løsningens indhold, udseende
-				og funktionalitet.
+				MusicMind kan understøtte en sundhedsfremmende brug af musik. t MusicMind kan være et redskab for bl.a.
+				musikterapeuter, ergoterapeuter og fysioterapeuter, sygeplejersker eller læger i deres behandlinger eller
+				aktiviteter. Gennem undervisning og vejledning fra musikterapeuter kan andre faggrupper lære at anvende musikken
+				på de præoprettede spillelister til plejefaglige formål på forsvarlig vis. Indretningen af MusicMind er
+				inspireret at elementerne Ramme, Regulering og Relation, der indgår i en model udviklet af professor i
+				musikterapi, Hanne Mette Ochsner Ridder, på Aalborg universitet. Læs mere om begreberne på hjemmesiden her og i
+				bogen ‘Stemning’ (Ridder & Krøier, 2022), der også omtales på siden:{' '}
+				<a
+					className="text-blue-500 underline"
+					href="https://www.kommunikation.aau.dk/forskning/forskningsenheder/forskningsgruppen-musikterapi/musik-og-demens/pami "
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Here
+				</a>
 			</p>
 			<p className="mt-10 mb-5 font-bold">MusicMind kan bl.a. benyttes til:</p>
 			<ul className="list-inside list-disc">
-				<li>At skabe stemning og atmosfære til meningsfyldt samvær</li>
-				<li>At berolige eller stimulere</li>
-				<li>At skabe fokus og koncentration</li>
-				<li>At skabe ro og velvære</li>
+				<li>At skabe genkendelighed og derved tryghed</li>
+				<li>At anvende kendt (og ukendt) musik til beroligelse eller stimulering (arousalregulering) </li>
+				<li>At skabe positive interaktioner og meningsfuldt samvær</li>
+				<li>At skabe et godt lydmiljø og god stemning i fællesrum</li>
+				<li>At invitere til samvær og dialog mellem borgere og deres pårørende</li>
+				<li>At invitere til dans og fysisk bevægelse og akkompagnere fysisk træning</li>
 			</ul>
 		</div>
 		<div>

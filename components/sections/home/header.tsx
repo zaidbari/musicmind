@@ -10,21 +10,22 @@ export const HomeHeaderSection = (): JSX.Element => {
 			<div className="grid w-[90%] grid-cols-1 items-center gap-32 lg:grid-cols-2">
 				<div className="flex max-w-2xl flex-col gap-5">
 					<h1 className="text-[260%] font-bold leading-tight">
-						MUSIKLØSNING MÅLRETTET <span className="text-orange-600">BEHANDLING</span> OG PLEJE
+						MUSIKLØSNING TIL REHABILITERING <span className="text-orange-600">PLEJE </span> OG PLEJE
 					</h1>
 					<p className="text-lg font-bold">
-					MusicMind er en praktisk, letanvendelig og specialiseret musikløsning målrettet ældreplejen, hospice, hospitaler og psykiatrien.
+						MusicMind er en lovlig, letanvendelig og specialiseret musikløsning udviklet til brug af musik i sundheds-
+						og plejefaglige kontekster.
 					</p>
 
 					<p className="text-lg">Med MusicMind tilbyder vi:</p>
 					<p>
-						En integreret løsning, der let kan benyttes af alle faggrupper
+						Nem adgang til et stort musikkatalog - med mulighed for at få laegt ønsket musik ind
 						<br />
-						Nem adgang til et stort musikkatalog og specialudviklede playlister
+						Velkendt og driftsikker teknologi på telefon, tablet, computer eller smart-tv
 						<br />
-						Velkendt og driftssikker teknologi på telefon, tablet, computer eller smart-tv
+						En løsning, der er godkendt juridisk og rettighedsmæssigt
 						<br />
-						Et solidt, fagligt grundlag gennem vores samarbejde med musikterapeuter
+						Et solidt, fagligt grundlag gennem vores samarbejde med danske musikterapeuter
 					</p>
 
 					<div>

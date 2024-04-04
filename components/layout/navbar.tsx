@@ -1,7 +1,7 @@
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
-import logo from '@/images/logo.png'
+import logo from '@/images/mm_logo.svg'
 import Image from 'next/future/image'
 import { useRouter } from 'next/router'
 
@@ -35,12 +35,12 @@ export const NavbarComponent = (): JSX.Element => {
 										<Link href="/" passHref>
 											<a className="text-2xl font-bold outline-none ring-0">
 												<Image
-													sizes="200px"
+													sizes="400px"
 													src={logo}
-													className="block h-[35px] w-auto md:h-[50px]"
+													className="block h-[35px] w-auto md:h-[40px]"
 													alt={'MusicMind UI'}
 													priority={true}
-													placeholder={'blur'}
+													// placeholder={'blur'}
 												/>
 											</a>
 										</Link>

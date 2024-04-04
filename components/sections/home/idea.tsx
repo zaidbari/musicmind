@@ -22,10 +22,13 @@ export const HomeIdeaSection = (): JSX.Element => (
 			<Line />
 
 			<p className="text-lg">
-			Når musikken skal spille, er det vigtigt at vælge det rigtige indhold til formålet. Med vores løsning gøres processen tryg og lettilgængelig, særligt i forbindelse med musikvalg til mennesker, der lever med forskellige sygdomme.
-			</p>
-			<p className="mt-5 text-lg">
-			Ved hjælp af stort musikarkiv, samt spillelister udviklet til specifikke behov, bliver medarbejderen guidet til at tage reflekterede valg om hvilken musik, der skal anvendes til forskellige lejligheder.
+				Uanset om musik anvendes til at skabe trivsel og fremme sundhed gennem meningsfulde aktiviteter, for at skabe
+				velvære i sig selv, eller ved at indgå som redskab i behandling varetaget af fx sygeplejersker eller terapeuter,
+				skal det være nemt, funktionelt og lovligt at tilgå den relevante musik. Med vores løsning, ønsker vi at guides
+				forskellige grupper af fagpersoner og pårørende til at kunne gøre brug af musikkens mange muligheder. MusicMind
+				er udviklet til at blive anvendte som et pædagogisk og plejefagligt redskab rettet mod et bredt spænd af
+				målgrupper på fx aktivitetscentre for hjemmeboende personer med en demenssygdom, plejecentre, hospitaler og
+				hospicer.
 			</p>
 		</div>
 	</section>

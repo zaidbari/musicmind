@@ -23,9 +23,9 @@ const About: NextPage = (): JSX.Element => {
 						<Line />
 
 						<p className="mb-5 text-lg">
-							MusicMind er udviklet af danske eksperter inden for teknologi og musikterapi. Ved at kombinere knowhow
-							inden for to fagområder gør vi det praktisk og juridisk let at benytte musik og teknologi af høj kvalitet
-							inden for professionel behandling og pleje.
+							MusicMind er udviklet af danske eksperter inden for teknologi og musikterapi . Ved at kombinere knowhow
+							inden for to fagområder gør vi det let at benytte musik og teknologi af høj kvalitet inden for
+							professionel behandling og pleje.
 						</p>
 					</div>
 					<div className="rounded-xl bg-[#151928]/30 p-10">
@@ -36,10 +36,7 @@ const About: NextPage = (): JSX.Element => {
 
 						<p className="text-lg">
 							Vores mål er at reducere tekniske, juridiske og økonomiske barrierer, der opstår i forbindelse med
-							anvendelse af musik i sundheds- og plejesektoren samt at understøtte og højne kvaliteten af aktiviteter
-							inden for musikmedicin og musikterapi. MusicMind er udviklet som supplement til musikterapeutiske
-							aktiviteter, hvorigennem det bliver muligt at opbygge en bredere indsats, der kan varetages af
-							plejepersonale og behandlere.
+							anvendelse af musik i sundheds- og plejesektoren
 						</p>
 					</div>
 				</section>
