@@ -15,7 +15,7 @@ export const HomeWorkSection = (): JSX.Element => (
 				musikterapeuter, ergoterapeuter og fysioterapeuter, sygeplejersker eller læger i deres behandlinger eller
 				aktiviteter. Gennem undervisning og vejledning fra musikterapeuter kan andre faggrupper lære at anvende musikken
 				på de præoprettede spillelister til plejefaglige formål på forsvarlig vis. Indretningen af MusicMind er
-				inspireret at elementerne Ramme, Regulering og Relation, der indgår i en model udviklet af professor i
+				inspireret af funktionerne Ramme, Regulering og Relation, der indgår i en model udviklet af professor i
 				musikterapi, Hanne Mette Ochsner Ridder, på Aalborg universitet. Læs mere om begreberne på hjemmesiden her og i
 				bogen ‘Stemning’ (Ridder & Krøier, 2022), der også omtales på siden:{' '}
 				<a
